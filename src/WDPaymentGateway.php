@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\PaymentGateway;
+namespace Webdirect\PaymentGateway;
 
 class WDPaymentGateway
 {

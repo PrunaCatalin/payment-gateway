@@ -5,7 +5,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\WDPaymentGateway\\WDPaymentGatewayServiceProvider"
+                "Webdirect\\WDPaymentGateway\\WDPaymentGatewayServiceProvider"
             ]
         }
     },
