@@ -5,7 +5,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webdirect\\WDPaymentGateway\\WDPaymentGatewayServiceProvider"
+                "Webdirect\\PaymentGateway\\WDPaymentGatewayServiceProvider"
             ]
         }
     },
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Webdirect\\WDPaymentGateway\\": "src/"
+            "Webdirect\\PaymentGateway\\": "src/"
         }
     },
     "license": "SC WebDirect Tehnologies SRL",
