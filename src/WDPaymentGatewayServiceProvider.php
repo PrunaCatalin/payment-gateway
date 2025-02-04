@@ -20,7 +20,7 @@ class WDPaymentGatewayServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(WDPaymentGateway::class, function ($app) {
-            return new WDPaymentGateway(config('payment-gateway'));
+            return new WDPaymentGateway(config('wd-payment-gateway'));
         });
 
         $this->app->bind(WDBillable::class, function ($app) {

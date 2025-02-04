@@ -18,15 +18,15 @@ class WDPaymentGateway
         // Returnează suma
     }
 
-    public function preparePayment(array $requestData, Customer $customer){
+    public function preparePayment(array $requestData, WDBillable $customer){
         // Procesează datele și returnează un array cu datele necesare pentru procesarea plății
     }
 
-    public function processPayment(array $requestData, Customer $customer){
+    public function processPayment(array $requestData, WDBillable $customer){
         // Procesează răspunsul
     }
 
-    public function processResponse(array $requestData, Customer $customer){
+    public function processResponse(array $requestData, WDBillable $customer){
         // Procesează răspunsul
     }
 

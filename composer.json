@@ -2,13 +2,20 @@
     "name": "webdirect/payment-gateway",
     "description": "Dynamic Payment Methods",
     "type": "library",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\WDPaymentGateway\\WDPaymentGatewayServiceProvider"
+            ]
+        }
+    },
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0"
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\PaymentGateway\\": "src/"
+            "Webdirect\\WDPaymentGateway\\": "src/"
         }
     },
     "license": "SC WebDirect Tehnologies SRL",
