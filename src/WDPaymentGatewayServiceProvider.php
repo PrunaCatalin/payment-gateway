@@ -1,8 +1,8 @@
 <?php
-namespace Vendor\WDPaymentGateway;
+namespace Webdirect\PaymentGateway;
 
 use Illuminate\Support\ServiceProvider;
-use Vendor\PaymentGateway\Contracts\WDBillable;
+use Webdirect\PaymentGateway\Contracts\WDBillable;
 
 class WDPaymentGatewayServiceProvider extends ServiceProvider
 {
