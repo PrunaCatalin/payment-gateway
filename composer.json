@@ -5,13 +5,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webdirect\\PaymentGateway\\WDPaymentGatewayServiceProvider"
+              "PaymentGatewayServiceProvider"
             ]
         }
     },
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.0"
+        "laravel/framework": "^11.0",
+      "ext-json": "*"
     },
     "autoload": {
         "psr-4": {

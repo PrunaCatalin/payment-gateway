@@ -1,7 +1,7 @@
 <?php
 namespace Webdirect\PaymentGateway;
-
-class WDPaymentGateway
+use Webdirect\PaymentGateway\Contracts\Billable;
+class PaymentGateway
 {
     protected $config;
 
@@ -18,15 +18,15 @@ class WDPaymentGateway
         // Returnează suma
     }
 
-    public function preparePayment(array $requestData, WDBillable $customer){
+    public function preparePayment(array $requestData, Billable $customer){
         // Procesează datele și returnează un array cu datele necesare pentru procesarea plății
     }
 
-    public function processPayment(array $requestData, WDBillable $customer){
+    public function processPayment(array $requestData, Billable $customer){
         // Procesează răspunsul
     }
 
-    public function processResponse(array $requestData, WDBillable $customer){
+    public function processResponse(array $requestData, Billable $customer){
         // Procesează răspunsul
     }
 
